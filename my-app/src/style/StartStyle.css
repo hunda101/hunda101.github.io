@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-image{
+    height: 700px;
+    background: url(https://store.ubi.com/on/demandware.static/-/Sites-masterCatalog/default/dwa5998da0/images/large/59ae6c7088a7e38f76eabdfd-1.jpg) no-repeat;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%
+}
