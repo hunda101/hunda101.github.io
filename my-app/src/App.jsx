@@ -12,24 +12,7 @@ function App() {
   return (
     <div className="App">
       {/* <Root /> */}
-      <BoardProvider value={{}}>
-        <Router>
-
-          <Switch>
-
-            <Route path="/" exact component={Start}></Route>
-            <Route path="/Board">
-
-              <Board2 />
-
-            </Route>
-            <Route path="/Players" component={Players}></Route>
-            <Route path="/BoardEXP" component={Board}></Route>
-            <Route path="/Dice" component={Dice}></Route>
-          </Switch>
-
-        </Router >
-      </BoardProvider>
+      mama
     </div>
   );
 }
