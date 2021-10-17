@@ -1,4 +1,5 @@
 import "./style/StartStyle.css"
+import { Link } from "react-router-dom";
 
 const Start = () => {
     return (
@@ -10,9 +11,7 @@ const Start = () => {
 
 
 
-            <form action="players">
-                <button className="btn btn-primary start-game-button">Click</button>
-            </form>
+            <Link to="/players" >Play game</Link>
 
         </div>
     );
